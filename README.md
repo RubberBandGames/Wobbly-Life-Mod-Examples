@@ -5,6 +5,9 @@
 In this mod examples package we have included a few mods which hopefully give
 you a more in depth knowledge on how to make custom gamemodes for mods.
 
+# Docs
+[Wobbly Life Modding SDK](https://rubberbandgames.com/wobblylife/modsdkdocs/index.html)
+
 # Trash Zone
 Trash Zone is an asymmetric party game where one player (the Trasher) will attempt to knock the other players (the Trash) into a trash compactor to knock them out. 
 They will do this by throwing objects down into the ‘Trash Zone’, launching them at the other players. 
