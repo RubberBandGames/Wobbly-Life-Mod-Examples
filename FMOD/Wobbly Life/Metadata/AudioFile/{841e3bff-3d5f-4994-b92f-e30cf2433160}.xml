@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{841e3bff-3d5f-4994-b92f-e30cf2433160}">
+		<property name="assetPath">
+			<value>WL_ModDemo_GameMode_Countdown_Tone.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>1.5643125</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{bdc8fd57-26fd-4583-9361-de6d0c55e2ed}</destination>
+		</relationship>
+	</object>
+</objects>

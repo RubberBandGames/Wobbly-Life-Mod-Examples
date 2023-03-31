@@ -1,0 +1,10 @@
+diff a/Assets/ExportSettings.asset b/Assets/ExportSettings.asset	(rejected hunks)
+@@ -15,7 +15,7 @@
+   activeProfile: 0
+   exportProfiles:
+   - referencePaths: []
+-    modName: Trash Man
++    modName: Trash Man Clothes Test
+     modAuthor: RubberBandGames
+     modVersion: 1.0.0
+     modDescription: 

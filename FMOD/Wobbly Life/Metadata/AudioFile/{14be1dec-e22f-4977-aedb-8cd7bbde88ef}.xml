@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{14be1dec-e22f-4977-aedb-8cd7bbde88ef}">
+		<property name="assetPath">
+			<value>TrashDemo/WL_ModDemo_Trash_Impact_Piano_01.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.43974999999999997</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{bdc8fd57-26fd-4583-9361-de6d0c55e2ed}</destination>
+		</relationship>
+	</object>
+</objects>

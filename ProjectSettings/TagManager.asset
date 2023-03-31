@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - FxTemporaire
+  - Ship
+  - ShipCamera
+  - Water
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - PostProcessing
+  - Ragdoll
+  - DynamicObject
+  - CameraCollide
+  - World
+  - Wheel
+  - Building
+  - Vehicle
+  - Minimap
+  - Road
+  - OnlyRagdoll
+  - 
+  - Audio
+  - WaterCollide
+  - Tunnel
+  - Weather
+  - Terrain
+  - MeshDisplacement
+  - Player1
+  - Player2
+  - Player3
+  - Player4
+  - Visible
+  - Invisible
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

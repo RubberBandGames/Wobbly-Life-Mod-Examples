@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{d51ecb1c-ef73-4c3e-a66a-e33891aa3c85}">
+		<property name="assetPath">
+			<value>HideAndSeekDemo/WL_ModDemo_HideAndSeek_Door_Close.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>0.61612500000000003</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{bdc8fd57-26fd-4583-9361-de6d0c55e2ed}</destination>
+		</relationship>
+	</object>
+</objects>

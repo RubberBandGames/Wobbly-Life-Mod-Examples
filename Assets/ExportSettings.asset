@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -2028264498, guid: 4d9ac0cbb6dcbc8428255d2df10dafee, type: 3}
+  m_Name: ExportSettings
+  m_EditorClassIdentifier: 
+  activeProfile: 1
+  exportProfiles:
+  - referencePaths: []
+    modName: Trash Man
+    modAuthor: RubberBandGames
+    modVersion: 1.0.0
+    modDescription: 
+    modAssetPath: D:/Development/Wobbly Life Mod Examples/Assets/Mods/Trash Man
+    modExportPath: C:/Users/tom19/Desktop
+    modIcon: {fileID: 0}
+  - referencePaths: []
+    modName: Hide and Seek
+    modAuthor: RubberBandGames
+    modVersion: 1.0.0
+    modDescription: 
+    modAssetPath: D:/Development/Wobbly Life Mod Examples/Assets/Mods/Hide and Seek
+    modExportPath: C:/Users/tom19/Desktop
+    modIcon: {fileID: 0}
+  logLevel: 4
+  optimizeMode: 0
+  compressionLevel: 2
+  clearConsoleOnBuild: 1
+  showOutputDirectory: 1
+  buildAndRunInvokeMode: 0
+  commandLineExecutable: D:/SteamLibrary/steamapps/common/Wobbly Life/Wobbly Life.exe
+  remoteServer: 

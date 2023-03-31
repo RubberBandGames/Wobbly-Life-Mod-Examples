@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="EncodableAsset" id="{6df86bc3-3162-451b-8926-a72ae1fd9c47}">
+		<property name="assetPath">
+			<value>HideAndSeekDemo/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{bdc8fd57-26fd-4583-9361-de6d0c55e2ed}</destination>
+		</relationship>
+	</object>
+</objects>

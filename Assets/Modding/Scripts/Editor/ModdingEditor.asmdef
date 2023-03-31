@@ -1,0 +1,18 @@
+{
+    "name": "ModdingEditor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:cd84b2071b8912743b5e91d727099ea7"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

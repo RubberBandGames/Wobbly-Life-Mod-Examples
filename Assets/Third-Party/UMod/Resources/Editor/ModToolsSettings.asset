@@ -1,0 +1,164 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1295631454, guid: 4d9ac0cbb6dcbc8428255d2df10dafee, type: 3}
+  m_Name: ModToolsSettings
+  m_EditorClassIdentifier: 
+  toolsIconSmall: {fileID: 2800000, guid: 319d88d8731a0f741b379cd97716a559, type: 3}
+  toolsIconLarge: {fileID: 2800000, guid: 0d5d6d1529512e24a8bd0b3da38ab942, type: 3}
+  toolsName: Wobbly Life Mod Tools
+  toolsVersion: 1.0.0
+  firstRunWindow:
+    assemblyQualifiedName: 
+  developerName: RubberBandGames
+  syncDeveloperName: 1
+  gameName: Wobbly Life
+  syncGameName: 1
+  gameVersion: 0.8.2.0
+  syncGameVersion: 1
+  modFileExtension: .wobblymod
+  commandLineLaunchFormat: +mod=$PATH
+  targetUnityVersion: 2020.3.44f1
+  allowAnyUnityVersion: 1
+  developerWebsiteURL: http://trivialinteractive.co.uk
+  onlineDocumentationURL: https://trivialinteractive.co.uk/products/documentation/umod_20/UserGuide.pdf
+  onlineScriptingReferenceURL: https://trivialinteractive.co.uk/products/documentation/umod_20/scriptingreference
+  assetSharing:
+    sharedAssetBundlePath: Resources/Editor/ModToolsSharedAssets.modbundle
+    sharedAssets: []
+  options:
+    allowAssetsInMods: 1
+    allowScenesInMods: 1
+    allowScriptsInMods: 1
+    allowMultipleModsPerProject: 1
+    allowModReferences: 0
+    allowDotNet4X: 1
+    allowMenu: 1
+    menuRoot: Mod Tools
+    menuEntries:
+    - menuEntryName: Create/New Mod
+      menuAction: 5
+      enabled: 1
+      isSeparator: 0
+      windowType:
+        assemblyQualifiedName: UMod.Exporter.CreateModWindow, UMod-Exporter, Version=1.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+    - menuEntryName: Create/Prefab Node
+      menuAction: 1
+      enabled: 0
+      isSeparator: 0
+      windowType:
+        assemblyQualifiedName: 
+    - menuEntryName: Create/Material Node
+      menuAction: 2
+      enabled: 0
+      isSeparator: 0
+      windowType:
+        assemblyQualifiedName: 
+    - menuEntryName: 
+      menuAction: 0
+      enabled: 1
+      isSeparator: 1
+      windowType:
+        assemblyQualifiedName: 
+    - menuEntryName: Exporter
+      menuAction: 5
+      enabled: 1
+      isSeparator: 0
+      windowType:
+        assemblyQualifiedName: UMod.Exporter.ExporterWindow, UMod-Exporter, Version=1.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+    - menuEntryName: 
+      menuAction: 0
+      enabled: 1
+      isSeparator: 1
+      windowType:
+        assemblyQualifiedName: 
+    - menuEntryName: Export Settings
+      menuAction: 5
+      enabled: 1
+      isSeparator: 0
+      windowType:
+        assemblyQualifiedName: UMod.Exporter.SettingsWindow, UMod-Exporter, Version=1.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+    - menuEntryName: Build Mod %#b
+      menuAction: 3
+      enabled: 1
+      isSeparator: 0
+      windowType:
+        assemblyQualifiedName: 
+    - menuEntryName: Build and Run %#r
+      menuAction: 4
+      enabled: 0
+      isSeparator: 0
+      windowType:
+        assemblyQualifiedName: 
+    - menuEntryName: 
+      menuAction: 0
+      enabled: 1
+      isSeparator: 1
+      windowType:
+        assemblyQualifiedName: 
+    - menuEntryName: Help
+      menuAction: 5
+      enabled: 1
+      isSeparator: 0
+      windowType:
+        assemblyQualifiedName: UMod.Exporter.HelpWindow, UMod-Exporter, Version=1.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+    - menuEntryName: About
+      menuAction: 5
+      enabled: 1
+      isSeparator: 0
+      windowType:
+        assemblyQualifiedName: UMod.Exporter.AboutWindow, UMod-Exporter, Version=1.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+    - menuEntryName: 
+      menuAction: 0
+      enabled: 1
+      isSeparator: 1
+      windowType:
+        assemblyQualifiedName: 
+    - menuEntryName: Referencing/Rebuild Reference Cache
+      menuAction: 6
+      enabled: 1
+      isSeparator: 0
+      windowType:
+        assemblyQualifiedName: 
+    - menuEntryName: 
+      menuAction: 0
+      enabled: 1
+      isSeparator: 1
+      windowType:
+        assemblyQualifiedName: 
+    - menuEntryName: Game Assets
+      menuAction: 5
+      enabled: 1
+      isSeparator: 0
+      windowType:
+        assemblyQualifiedName: UMod.Exporter.GameAssetsWindow, UMod-Exporter, Version=1.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+    readOnly: 0
+  security:
+    performBuildSecurityChecks: 1
+    allowScriptsInMods: 1
+    allowAssembliesInMods: 1
+    securityRestrictions: {fileID: 11400000, guid: ec48e15fce9a35846964f190f066079d,
+      type: 2}
+    readOnly: 0
+  gameLocking:
+    allowGameLocking: 1
+    allowGameVersionLocking: 0
+    gameLockingGUID: 4d8160c4-2e3f-46b6-bd4a-e1500f550254
+    readOnly: 0
+  stripShaderNames: []
+  readOnly: 0
+  newModTextFile: {fileID: 4900000, guid: 565e07c038553cf488486a6cbfad595c, type: 3}

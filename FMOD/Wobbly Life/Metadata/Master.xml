@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="MixerMaster" id="{745839c0-bfc3-41f7-82cc-67b9a204c607}">
+		<property name="volume">
+			<value>10</value>
+		</property>
+		<property name="name">
+			<value>Master Bus</value>
+		</property>
+		<property name="instanceStealing">
+			<value>1</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{3cd80dcb-f942-47fa-bf2c-d35eda8af8fc}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{7966789c-1e38-4014-aca0-3ad229d1a816}</destination>
+		</relationship>
+		<relationship name="mixer">
+			<destination>{a3436536-63c1-4239-b539-b5cb6f748231}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{3cd80dcb-f942-47fa-bf2c-d35eda8af8fc}">
+		<relationship name="effects">
+			<destination>{4a7c83ec-2da7-4773-8712-6a03db920860}</destination>
+			<destination>{29b9ba23-ea50-472e-a09e-f358b01d4f45}</destination>
+			<destination>{9b52c58f-87cf-4044-9f66-fa74dfd12066}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{7966789c-1e38-4014-aca0-3ad229d1a816}">
+		<property name="overridingOutputFormat">
+			<value>2</value>
+		</property>
+	</object>
+	<object class="CompressorEffect" id="{4a7c83ec-2da7-4773-8712-6a03db920860}">
+		<property name="threshold">
+			<value>-30</value>
+		</property>
+		<property name="ratio">
+			<value>1.45000005</value>
+		</property>
+		<property name="attackTime">
+			<value>50</value>
+		</property>
+		<property name="releaseTime">
+			<value>400</value>
+		</property>
+		<property name="gain">
+			<value>3</value>
+		</property>
+	</object>
+	<object class="LimiterEffect" id="{29b9ba23-ea50-472e-a09e-f358b01d4f45}">
+		<property name="ceiling">
+			<value>-1.99999988</value>
+		</property>
+	</object>
+	<object class="MixerBusFader" id="{9b52c58f-87cf-4044-9f66-fa74dfd12066}" />
+</objects>

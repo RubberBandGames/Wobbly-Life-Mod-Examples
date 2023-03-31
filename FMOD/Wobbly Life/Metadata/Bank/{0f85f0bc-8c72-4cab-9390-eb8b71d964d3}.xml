@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="Bank" id="{0f85f0bc-8c72-4cab-9390-eb8b71d964d3}">
+		<property name="name">
+			<value>HideAndSeekQuarryDemo</value>
+		</property>
+		<relationship name="folder">
+			<destination>{8c073495-3114-454b-89cb-7b03627edcca}</destination>
+		</relationship>
+	</object>
+</objects>
