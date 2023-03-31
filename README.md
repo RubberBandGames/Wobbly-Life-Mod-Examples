@@ -10,6 +10,8 @@ Trash Zone is an asymmetric party game where one player (the Trasher) will attem
 They will do this by throwing objects down into the ‘Trash Zone’, launching them at the other players. 
 The Trash players have to dodge these objects until the timer runs out.
 
+**We have included a version of Trash Zone which you can use to make your own Trash Zone maps!**
+
 ![](Images/Trashmanlevel.png)
 
 # Hide and Seek
