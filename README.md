@@ -28,3 +28,7 @@ When a Hider is caught, they will spectate until the end of the game.
 **We have included a version of Hide and Seek which you can use to make your own Hide and Seek maps!**
 
 ![](Images/Quarry.png)
+
+# Disclaimer
+
+**The content distributed within this project is for the purposes of modding Wobbly Life. Do not distribute or use assets for any other purpose.**
