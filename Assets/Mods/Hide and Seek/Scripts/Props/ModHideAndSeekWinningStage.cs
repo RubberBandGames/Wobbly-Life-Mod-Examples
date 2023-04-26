@@ -56,13 +56,26 @@ public class ModHideAndSeekWinningStage : ModNetworkBehaviour
         RPC_CLIENT_UPDATE_STAGE_DATA = modNetworkObject.RegisterRPC(ClientUpdateStageData);
     }
 
-    /// <summary>
-    /// Shows the winnenrs
-    /// </summary>
-    /// <param name="gamemode"></param>
-    /// <param name="bannerText"></param>
-    /// <param name="winnerControllers"></param>
-    public void ServerShowWinners(ModBaseGamemode gamemode, string bannerText, params ModPlayerController[] winnerControllers)
+	protected override void ModNetworkStart(ModNetworkObject modNetworkObject)
+	{
+		base.ModNetworkStart(modNetworkObject);
+
+        ModGameplayCamera[] gameplayCameras = FindObjectsOfType<ModGameplayCamera>();
+
+        // Disable all split screen cameras so that the winnign stage is displayed correctly
+        for (int i = 1; i < gameplayCameras.Length; ++i)
+        {
+            gameplayCameras[i].gameObject.SetActive(false);
+        }
+    }
+
+	/// <summary>
+	/// Shows the winnenrs
+	/// </summary>
+	/// <param name="gamemode"></param>
+	/// <param name="bannerText"></param>
+	/// <param name="winnerControllers"></param>
+	public void ServerShowWinners(ModBaseGamemode gamemode, string bannerText, params ModPlayerController[] winnerControllers)
     {
         if (modNetworkObject == null || !modNetworkObject.IsServer()) return;
 

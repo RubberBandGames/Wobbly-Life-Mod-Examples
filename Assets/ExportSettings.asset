@@ -31,7 +31,7 @@ MonoBehaviour:
     modExportPath: C:/Users/tom19/Desktop
     modIcon: {fileID: 0}
   logLevel: 4
-  optimizeMode: 0
+  optimizeMode: 1
   compressionLevel: 2
   clearConsoleOnBuild: 1
   showOutputDirectory: 1
